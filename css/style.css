@@ -975,6 +975,13 @@ overflow: hidden;
   margin-bottom: 20px;
 }
 
+.input-field:not(:placeholder-shown) {
+  border-color: #2196f3;
+}
+.input-field:not(:placeholder-shown)+.modal-icon .modal-icon-svg{
+  fill: #2196f3;
+}
+
 .form-field label {
   display: block;
   position: relative;
@@ -1029,7 +1036,7 @@ overflow: hidden;
   fill:  #2196f3;
 }
 
-.modal-icon {
+.modal-icon svg {
   display: inline-block;
 
   position: absolute;
@@ -1218,50 +1225,4 @@ overflow: hidden;
 
 .type-email input::placeholder {
   font-family: inherit;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-}
-
-.type-email input {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.type-email svg {
-  width: 24px;
-  height: 24px;
-
-  fill: #ffffff;
-
-  margin-left: 10px;
-}
-
-.type-email button {
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-
-  width: 200px;
-  height: 50px;
-
-  background-color: #2196f3;
-
-  padding: 0px 0px;
-  margin-left: 12px;
-
-  border-radius: 4px;
-  border-color: transparent;
-
-  font-family: Roboto;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.8;
-  text-align: center;
-  letter-spacing: 0.06em;
-
-  color: #ffffff;
-
-  cursor: pointer;
 }
