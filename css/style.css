@@ -978,7 +978,7 @@ overflow: hidden;
 .input-field:not(:placeholder-shown) {
   border-color: #2196f3;
 }
-.input-field:not(:placeholder-shown)+.modal-icon .modal-icon-svg{
+.input-field:not(:placeholder-shown)+.modal-icon-svg{
   fill: #2196f3;
 }
 
@@ -1013,7 +1013,7 @@ overflow: hidden;
   transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-icon svg {
+.modal-icon-svg {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
@@ -1023,7 +1023,7 @@ overflow: hidden;
   border: 1px solid  #2196f3;
 }
 
-.form-field:hover .modal-icon svg {
+.form-field:hover .modal-icon-svg {
   fill:  #2196f3;
 }
 
@@ -1032,11 +1032,11 @@ overflow: hidden;
   border: 1px solid  #2196f3;
 }
 
-.form-field input:focus-visible + .modal-icon svg {
+.form-field input:focus-visible + .modal-icon-svg {
   fill:  #2196f3;
 }
 
-.modal-icon svg {
+.modal-icon-svg {
   display: inline-block;
 
   position: absolute;
