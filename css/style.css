@@ -1097,7 +1097,7 @@ overflow: hidden;
   align-items: center;
 }
 
-.checkbox-box label > p {
+.checkbox-box label > span {
   display: flex;
 
   justify-content: center;
@@ -1107,11 +1107,10 @@ overflow: hidden;
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: 0.03em;
-
   color:  #757575;
 }
 
-.checkbox-box label > p > a {
+.checkbox-box label > span > a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.8;
